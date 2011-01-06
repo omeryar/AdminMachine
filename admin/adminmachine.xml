@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+<name>AdminMachine</name>
+<creationDate>12/11/2008</creationDate>
+<author>Omer Yariv</author>
+<copyright>GPL</copyright>
+<authorEmail>adminmachine@roundbundleofwheat.com</authorEmail>
+<authorUrl>http://roundbundleofwheat.com</authorUrl>
+<version>0.3</version>
+<description>The AdminMachine is a component designed to help Joomla Extensions Developers. With a little configuration it can provide an automatically created back-end for any component. Just configure your tables and their relations, and presto: you or your client can manage the backend of almost any component.</description>
+
+<files>
+</files>
+
+<install />
+
+<uninstall />
+
+<administration>
+	<menu>Admin Machine</menu>
+	<submenu>
+		<menu link="option=com_adminMachine&amp;controller=datasets">Admin Machine Settings</menu>
+	</submenu>	
+	<files folder="admin">
+		<filename>index.html</filename>
+		<filename>adminMachine.php</filename>
+		<filename>controller.php</filename>
+
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>datasets</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+
+</administration>
+</install>

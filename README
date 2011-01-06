@@ -1,0 +1,15 @@
+A Joomla component for the convenience of Joomla developers.
+
+The Joomla MVC is cool, but writing administration screens can be a bore. CRUD CRUD CRUD.
+Admin Machine allows developers to shorten the time required to produce admin screens for the components they build by semi-automating the process.
+The developer defines the data models, relations, editable fields and custom action in a single file per screen, called a "dataset". 
+Yeap, this break the MVC model, but it also has a few advantages. Make you own call.
+
+A few words of warning:
+
+- This code comes with no promise of warranty or support whatsoever. It's here because it was useful to me, and it might be to you.
+- The code might be messier than it should. I've been using it for some time now, and organically changing it. It works.
+- The code assumes that Joomla takes care of authentication. If the user is logged into the administration side, and has access to the screen, Admin Machine trusts that he has no malicious intents.
+- There are some examples. Not sure how updated they are. I'll get to that. Sometime.
+
+Hope it's useful to someone out there.
